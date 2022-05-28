@@ -17,7 +17,7 @@ function start() {
     const result = Math.round(Math.random() * (10 - 1) + 1)
     const result2 = Math.round(Math.random() * (10 - 1) + 1)
 
-    const number = Number(prompt('Escribe un número.'))
+    const number = parseInt(prompt('Escribe un número.'))
 
     if (!number) {
         alert('Eso no es un número.')
@@ -31,7 +31,7 @@ function start() {
         return
     }
 
-    const number2 = Number(prompt('Escribe un número.'))
+    const number2 = parseInt(prompt('Escribe un número.'))
 
     if (!number2) {
         alert('Eso no es un número.')
